@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="标题(必填，不超过40个字)"/>
+
+    <EditText
+        android:id="@+id/rich"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:inputType="textLongMessage"
+        android:hint="说两句吧..."/>
+
+    <ImageButton
+        android:id="@+id/addLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_new" />
+
+
+</LinearLayout>

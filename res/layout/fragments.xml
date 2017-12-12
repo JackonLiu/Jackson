@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/royalblue"
+        android:textColorLink="@color/blue"
+        android:text="@string/growup"
+        android:textColor="@color/white"/>
+
+    <ViewFlipper
+        android:layout_height="197dp"
+        android:layout_width="match_parent"
+        android:id="@+id/flipper"
+        android:background="@color/white"
+        >
+    </ViewFlipper>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:numColumns="3">
+        <!--        android:horizontalSpacing="1dp"
+                android:verticalSpacing="1dp"-->
+    </GridView>
+
+</LinearLayout>

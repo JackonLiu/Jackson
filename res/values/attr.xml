@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <attr name="tab_count" format="integer"></attr>
+
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="visible_tab_count" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Topbar">
+
+        <attr name="title" format="string" />
+
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="rightText" format="string" />
+    </declare-styleable>
+</resources>

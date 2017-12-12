@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/royalblue"
+        android:layout_height="40dp">
+    <TextView
+        android:id="@+id/mesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="150dp"
+        android:text="消息"/>
+
+        <ImageButton
+            android:id="@+id/msgAdd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="123dp"
+            android:background="@color/royalblue"
+            android:src="@mipmap/ic_action_new"/>
+    </LinearLayout>
+
+
+    <com.jackson.ccc.listviewfrashdemo1.ReFlashListView
+        android:id="@+id/msg_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="5dip" />
+
+
+</LinearLayout>

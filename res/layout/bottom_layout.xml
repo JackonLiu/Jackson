@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/beijin"
+    android:orientation="horizontal"
+    android:layout_gravity="bottom"
+    >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/myhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/baise"
+            android:layout_gravity="center_horizontal"
+            android:onClick="imageButtonOnClick"
+            android:src="@mipmap/myhome"/>
+
+        <TextView
+            android:id="@+id/shouye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_gravity="center_horizontal"
+            android:text="首页"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/baise"
+            android:layout_gravity="center_horizontal"
+            android:onClick="imageButtonOnClick"
+            android:src="@mipmap/school"/>
+
+        <TextView
+            android:id="@+id/quan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_gravity="center_horizontal"
+            android:text="校园圈"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/messenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/baise"
+            android:layout_gravity="center_horizontal"
+            android:onClick="imageButtonOnClick"
+            android:src="@mipmap/messenger"/>
+
+        <TextView
+            android:id="@+id/xiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_gravity="center_horizontal"
+            android:text="消息"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/baise"
+            android:layout_gravity="center_horizontal"
+            android:onClick="imageButtonOnClick"
+            android:src="@mipmap/personal"/>
+
+        <TextView
+            android:id="@+id/my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_gravity="center_horizontal"
+            android:text="我的"/>
+
+    </LinearLayout>
+</LinearLayout>

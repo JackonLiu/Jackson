@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/royalblue"
+        >
+
+        <TextView
+            android:id="@+id/schoolText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="150dp"
+            android:text="校园集市"/>
+
+        <ImageButton
+            android:id="@+id/agoraAdd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="75dp"
+            android:onClick="goAdd"
+            android:background="@color/royalblue"
+            android:src="@mipmap/ic_action_new"/>
+
+    </LinearLayout>
+
+
+    <com.jackson.ccc.gridview.ViewpagerIndicator
+
+
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="@color/aliceblue" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+ <!--   <ListView
+        android:id="@+id/agora_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/aliceblue"
+        android:dividerHeight="5sp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />-->
+
+    <!--    <RelativeLayout
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="40dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#001122"
+                android:gravity="center" />
+        </RelativeLayout>-->
+
+<!--    <LinearLayout
+        android:id="@+id/linear_del"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_del"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="删除"
+            android:textColor="#000000"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:background="#0000ff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>-->
+
+
+</LinearLayout>

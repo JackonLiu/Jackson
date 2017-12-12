@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>全部</item>
+        <item>闲置课本</item>
+        <item>电子产品</item>
+        <item>服饰</item>
+        <item>生活用品</item>
+        <item>非机动车</item>
+    </string-array>
+
+    <string-array name="NewsType">
+        <item>校园通知</item>
+        <item>社团活动</item>
+        <item>学生会</item>
+        <item>学社联</item>
+        <item>系部动态</item>
+        <item>放假通知</item>
+    </string-array>
+
+ <string-array name="school">
+        <item>聊聊</item>
+        <item>吐槽</item>
+        <item>晒图</item>
+        <item>互帮</item>
+        <item>其它</item>
+    </string-array>
+
+    <string-array
+        name = "messengers">
+        <item>个人消息</item>
+        <item>私信</item>
+        <item>校园通知</item>
+        <item>参加的活动通知</item>
+        <item>比赛通知</item>
+        <item>放假通知</item>
+        <item>集市通知</item>
+    </string-array>
+
+    <string-array
+        name = "activities">
+        <item>1.社团活动</item>
+        <item>2.系部学生会活动</item>
+        <item>3.校学生会活动</item>
+        <item>4.校园活动</item>
+        <item>5.其它</item>
+    </string-array>
+
+<string-array
+        name = "gradeList">
+        <item>    刘鑫鹏    2016-2017-1</item>
+        <item>1.口才意识与社交礼仪    良好</item>
+        <item>2.法律人生             良好</item>
+        <item>3.面向对象程序设计       82</item>
+        <item>4.大学物理A            60</item>
+        <item>5.面向对象程序设计      优秀</item>
+        <item>6.毛概                77 </item>
+        <item>7.数据结构             90</item>
+        <item>8.实用口语             良好</item>
+        <item>9.多元函数与常微分方程   90</item>
+        <item>10.大学英语3           81</item>
+        <item>11.物理实验A           良好</item>
+        <item>12.体育                85</item>
+    </string-array>
+
+</resources>

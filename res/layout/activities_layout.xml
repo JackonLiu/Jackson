@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/royalblue"
+        >
+
+        <TextView
+            android:id="@+id/schoolText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="160dp"
+            android:text="活动"/>
+
+        <ImageButton
+            android:id="@+id/actAdd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="110dp"
+            android:background="@color/royalblue"
+            android:src="@mipmap/ic_action_new"/>
+
+    </LinearLayout>
+
+    <com.jackson.ccc.listviewfrashdemo1.ReFlashListView
+        android:id="@+id/activity_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="5dip" />
+
+
+
+
+</LinearLayout>

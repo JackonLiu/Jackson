@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="true"
+    android:duration="3000"
+
+    android:repeatMode="reverse"
+    >
+ <!--   <translate
+        android:fromXDelta="float"
+        android:toXDelta="float"
+        android:fromYDelta="float"
+        android:toYDelta="float"
+        >
+
+    </translate>-->
+
+</set>

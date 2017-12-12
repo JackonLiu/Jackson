@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:id="@+id/toolBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/royalblue"
+        >
+
+        <TextView
+            android:id="@+id/schoolText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="140dp"
+            android:text="校园圈"/>
+
+            <ImageButton
+            android:id="@+id/schoolIB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="110dp"
+            android:background="@color/royalblue"
+            android:src="@drawable/ic_action_new"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/toolBar">
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="全部"
+            android:background="@color/baise"/>
+        <Button
+            android:id="@+id/talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="聊聊"
+            android:layout_weight="1"
+            android:background="@color/baise"/>
+        <Button
+            android:id="@+id/badthing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吐槽"
+            android:layout_weight="1"
+            android:background="@color/baise"/>
+        <Button
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="晒图"
+            android:layout_weight="1"
+            android:background="@color/baise"/>
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帮助"
+            android:layout_weight="1"
+            android:background="@color/baise"/>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/talkAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPanel1"></ListView>
+
+
+</RelativeLayout>
